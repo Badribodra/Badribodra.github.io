@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="images/Logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="code.js"></script>
+</head>
+<body class="Quiz">
+    <!--Adding a next and previous links in the form of animated buttons to quickly access the next page or to quickly go back-->
+    <div class="next"><a href="index.html">Home Page<i class="material-icons" >home</i></a>
+    </div>
+    <div class="previous"><a href="Videos.html"><i class="material-icons" >arrow_back_ios</i>Previous page: Artivism in action </a>
+    </div>
+    <!--Adding an animated side bar to access any page-->
+    <input type="checkbox" id="chk" name="chkNavigation">
+        <label for="chk">
+            <div id="open">
+                <i class="material-icons" >menu</i> Quiz
+            </div>
+            <i class="material-icons" id="close">close</i>
+        </label>
+    
+    <nav>
+        <header>Quiz</header>
+        <ul>
+            <li>
+                <a href="index.html">Home Page</a> 
+                <p>Go back to the home page</p>
+            </li>
+            <li>
+                <a href="BackStory.html">About</a> 
+                <p>Learn more about the artist behind the AI-powered climate Artivism series and the mission driving the work.</p>
+            </li>
+            <li>
+                <a href="Career.html">Image Gallery</a>
+                <p>Explore the full collection of AI-generated Artivism projects visualizing the impact of climate change.</p>
+            </li>   
+            <li><a href="PersonalLife.html">Shop</a>
+                <p>Get powerful AI-generated Artivism on posters, t-shirts, and more to support the message.</p>
+            </li>
+            <li><a href="Videos.html">Artivism in Action </a>
+                <p>Watch a powerful visual journey through AI-generated artworks tackling climate change.</p>
+            </li>
+            <li><a href="https://www.instagram.com/artivism_ai?igsh=eGFmMHlxYThwYXk1&utm_source=qr">Instagram</a>
+                <p>Follow me on Instagram for new projects, and more climate AI Artivism.</p>
+            </li>
+        </ul>
+    </nav>
+    <!--Adding the questions and the answers for the quiz-->
+    <div class="centering">
+        <Ul class="Question">
+            <li class="one">
+                <span class="Q">What is the main theme that connects all the artworks in this portfolio?</span> 
+                <ul class="ul1">
+                    <li class="two"><input type="radio" id="rd1" name="Q1" value="Urban development"> <label for="rd1">Urban development</label> </li>
+                    <li class="two"><input type="radio" id="rd2" name="Q1" value="Pop culture reinterpretation"> <label for="rd2">Pop culture reinterpretation</label></li>
+                    <li class="two"><input type="radio" id="rd3" name="Q1" value="Climate change awareness"><label for="rd3">Climate change awareness</label></li>
+                    <li class="two"><input type="radio" id="rd4" name="Q1" value="Street art revival"><label for="rd4">Street art revival</label></li>
+                </ul>
+            </li>
+            <li class="one">
+                <span class="Q">What AI tool was primarily used to generate the artworks in the portfolio?</span>
+                <ul class=" ul2">
+                    <li class="two"><input type="radio" id="rd5" name="Q2" value="Photoshop Neural Filters"><label for="rd5">Photoshop Neural Filters</label></li>
+                    <li class="two"><input type="radio" id="rd6" name="Q2" value="ChatGPT-4o’s image generation"><label for="rd6">ChatGPT-4o’s image generation</label></li>
+                    <li class="two"><input type="radio" id="rd7" name="Q2" value="Midjourney"><label for="rd7">Midjourney</label></li>
+                    <li class="two"><input type="radio" id="rd8" name="Q2" value="Runway"><label for="rd8">Runway</label></li>
+                </ul>
+            </li>
+            <li class="one">
+                <span class="Q"> In the project “Drowned Cities,” what unique concept is used to convey the urgency of rising sea levels?</span>
+                <ul class="ul3">
+                    <li class="two"><input type="radio" id="rd9" name="Q3" value="Floating protest signs"><label for="rd9">Floating protest signs</label></li>
+                    <li class="two"><input type="radio" id="rd10" name="Q3" value="Politicians climbing landmarks to escape floods"><label for="rd10">Politicians climbing landmarks to escape floods</label></li>
+                    <li class="two"><input type="radio" id="rd11" name="Q3" value="I Cities shown as underwater ruins"><label for="rd11"> Cities shown as underwater ruins</label></li>
+                    <li class="two"><input type="radio" id="rd12" name="Q3" value="Virtual reality flood simulations"><label for="rd12">Virtual reality flood simulations</label></li>
+                </ul>
+            </li>
+            <li class="one">
+                <span class="Q">What visual technique is used in the “Breathing Earth” project to depict the contrast between polluted and clean cities?</span>
+                <ul class="ul4">
+                    <li class="two"><input type="radio" id="rd13" name="Q4" value=" 3D modeling"><label for="rd13"> 3D modeling</label></li>
+                    <li class="two"><input type="radio" id="rd14" name="Q4" value="Collage overlay"><label for="rd14">Collage overlay</label></li>
+                    <li class="two"><input type="radio" id="rd15" name="Q4" value="Time-lapse animation"><label for="rd15">Time-lapse animation</label></li>
+                    <li class="two"><input type="radio" id="rd16" name="Q4" value="Double exposure"><label for="rd16">Double exposure</label></li>
+                </ul>
+            </li>
+            <li class="one">
+                <span class="Q">What additional service does the Artivism Shop offer besides physical products like shirts and posters?</span>
+                <ul class="ul5">
+                    <li class="two"><input type="radio" id="rd17" name="Q5" value="Digital drawing tutorials"><label for="rd17">Digital drawing tutorials</label></li>
+                    <li class="two"><input type="radio" id="rd18" name="Q5" value="Climate change statistics"><label for="rd18">Climate change statistics</label></li>
+                    <li class="two"><input type="radio" id="rd19" name="Q5" value="Framed NFT artwork"><label for="rd19">Framed NFT artwork</label></li>
+                    <li class="two"><input type="radio" id="rd20" name="Q5" value="City-wide distribution of custom Artivism"><label for="rd20">City-wide distribution of custom Artivism</label></li>
+                </ul>
+            </li>
+        </Ul>
+        <div class="btncenter">
+            <input type="button" name="btnDone" value="Done" onclick="Done()"><!-- this is a function I will make in javascript-->
+        </div>
+    </div>
+    <!--this next line of code is here just to make the page higher using CSS it wouldn't be visible-->
+    <div class="full">Making the page height bigger descretely</div>
+</body>
+
+
+</html>

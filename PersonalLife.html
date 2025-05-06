@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="images/Logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body class="Personal">
+    <div id="Front">
+        <!--Adding a next and previous links in the form of animated buttons to quickly access the next page or to quickly go back-->
+        <div class="next"><a href="Videos.html">Next page: Artivism in Action<i class="material-icons" >arrow_forward_ios</i></a>
+        </div>
+        <div class="previous"><a href="Career.html"><i class="material-icons" >arrow_back_ios</i>Previous page: Image Gallery </a>
+        </div>
+        
+        <div class="shop-container">
+            <h2 class="h2shop">Artivism Shop</h2>
+            <form id="shopForm">
+              <label class="labelshop" for="product">Select Product:</label>
+              <select id="product" name="product" required>
+                <option value="30">Sweatshirt (£30)</option>
+                <option value="20">T-shirt (£20)</option>
+                <option value="10">Hat (£10)</option>
+                <option value="8">Poster (£8)</option>
+                <option value="5">Protest Signs (£5)</option>
+              </select>
+        
+              <label class="labelshop" for="quantity">Quantity:</label>
+              <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        
+              <label class="labelshop" for="artivism">Select Artivism:</label>
+              <select id="artivism" name="artivism" required>
+                <option value="0">Breathing Earth (London)</option>
+                <option value="0">Breathing Earth (Tokyo)</option>
+                <option value="0">Drowned London</option>
+                <option value="0">Drowned Paris</option>
+                <option value="0">Burning Futures</option>
+                <option value="0">Melting Icons</option>
+                <option value="10">Custom (+£10)</option>
+              </select>
+        
+              <div id="customRequestContainer">
+                <label class="labelshop"  for="customRequest">Custom Artivism Request:</label>
+                <input type="text" id="customRequest" name="customRequest">
+              </div>
+              <label class="labelshop">
+                <input type="checkbox" id="distribution" name="distribution">
+                Add city-wide distribution of Artivism (+£100)
+              </label>
+              
+              <!-- City Selector Dropdown (Initially Hidden) -->
+              <div id="citySelectContainer" style="display: none;">
+                <label class="labelshop" for="city">Select City for Distribution:</label>
+                <select id="city" name="city">
+                  <option value="">-- Choose a City --</option>
+                  <option value="London">London</option>
+                  <option value="Manchester">Manchester</option>
+                  <option value="Bristol">Bristol</option>
+                  <option value="Birmingham">Birmingham</option>
+                </select>
+              </div>
+              <div class="price-output">
+                Total Price: £<span id="totalPrice">0</span>
+              </div>              
+              <button id="buyButton" type="submit">Buy Now</button>
+            </form>
+          </div>
+        
+          <script src="script.js"></script>
+        </div>
+        <!--Adding an animated side bar to access any page-->
+        <input type="checkbox" id="chk" name="chkNavigation">
+        <label for="chk">
+            <div id="open"><i class="material-icons" >menu</i> Shop</div>
+            <i class="material-icons" id="close">close</i>
+        </label>
+        
+        <nav>
+            <header>Shop</header>
+            <ul>
+                <li>
+                    <a href="index.html">Home Page</a> 
+                    <p>Go back to the home page</p>
+                </li>
+                <li>
+                    <a href="BackStory.html">About</a> 
+                    <p>Learn more about the artist behind the AI-powered climate Artivism series and the mission driving the work.</p>
+                </li>
+                <li>
+                    <a href="Career.html">Image Gallery</a>
+                    <p>Explore the full collection of AI-generated Artivism projects visualizing the impact of climate change.</p>
+                </li>
+                <li><a href="Videos.html">Artivism in Action </a>
+                    <p>Watch a powerful visual journey through AI-generated artworks tackling climate change.</p>
+                </li>
+                <li><a href="partB.html">Quiz</a>
+                    <p>How well do you know the art and stories behind my climate projects? Take the quiz and find out!</p>
+                </li>
+                <li><a href="https://www.instagram.com/artivism_ai?igsh=eGFmMHlxYThwYXk1&utm_source=qr">Instagram</a>
+                    <p>Follow me on Instagram for new projects, and more climate AI Artivism.</p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

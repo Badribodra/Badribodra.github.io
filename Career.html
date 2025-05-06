@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="images/Logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="gallery.js"></script>
+</head>
+<body class="Career">
+    <div id="Front">
+        <!--Adding a next and previous links in the form of animated buttons to quickly access the next page or to quickly go back-->
+        <div class="next"><a href="PersonalLife.html">Next page: Shop<i class="material-icons" >arrow_forward_ios</i></a>
+        </div>
+        <div class="previous"><a href="BackStory.html"><i class="material-icons" >arrow_back_ios</i>Previous page: About </a>
+        </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item" onclick="openModal('Breathing Earth (Tokyo)', 'When I created Breathing Earth, I was drawing from a deeply personal memory. Growing up, I spent many summers visiting family in bustling urban areas, particularly in Rabat, the capital of Morocco, and I vividly remember how the air felt heavy, almost oppressive. I recall a specific moment, standing on a busy street corner in Rabat, seeing endless streams of cars, and feeling overwhelmed by the scale of human activity. It felt as though the city itself was struggling to breathe, and I realized this was exactly how I felt too. As an artist passionate about both technology and activism, I wanted to express this invisible burden we carry, how we internalize the effects of air pollution without realizing it. The double exposure technique, placing polluted cityscapes within human silhouettes, symbolizes this intimate, personal connection to our environment. It represents the harsh reality that the air we breathe directly shapes our health, our emotions, and our future. I selected Tokyo because it has always been one of my favourite cities, a vibrant metropolis whose beauty and complexity deeply inspire me. My goal with Breathing Earth is not just to raise awareness, but to evoke empathy and urgency, prompting viewers to ask themselves: Is this truly the air we want to breathe?', 'Breathing Earth (Tokyo) is an AI-generated double exposure artwork showing Tokyo’s cityscape deteriorating from air pollution, embedded within the silhouette of a man. This piece explores the hidden impact of pollution on both urban environments and the individuals living within them, prompting viewers to question, Is this the air we want to breathe?')">
+              <img src="images/Breathing Earth (Tokyo).png" alt="Breathing Earth - Tokyo">
+              <div class="image-title">Breathing Earth - Tokyo</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Breathing Earth (London)', 'When I created Breathing Earth, I was drawing from a deeply personal memory. Growing up, I spent many summers visiting family in bustling urban areas, particularly in Rabat, the capital of Morocco, and I vividly remember how the air felt heavy, almost oppressive. I recall a specific moment, standing on a busy street corner in Rabat, seeing endless streams of cars, and feeling overwhelmed by the scale of human activity. It felt as though the city itself was struggling to breathe, and I realized this was exactly how I felt too. As an artist passionate about both technology and activism, I wanted to express this invisible burden we carry, how we internalize the effects of air pollution without realizing it. The double exposure technique, placing polluted cityscapes within human silhouettes, symbolizes this intimate, personal connection to our environment. It represents the harsh reality that the air we breathe directly shapes our health, our emotions, and our future. I chose London because it is the city where I currently live, and witnessing its daily rhythms makes its environmental issues particularly immediate and personal for me. My goal with Breathing Earth is not just to raise awareness, but to evoke empathy and urgency, prompting viewers to ask themselves: Is this truly the air we want to breathe?', 'Breathing Earth (Paris) is an AI-generated double exposure artwork depicting Paris’s polluted skyline contained within the silhouette of a woman. Blending surrealism and photorealism, the piece symbolizes the invisible burden of air pollution and invites viewers to reflect on its personal and environmental consequences.')">
+              <img src="images/Breathing Earth (London).png" alt="Breathing Earth - London">
+              <div class="image-title">Breathing Earth - London</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Burning Futures', 'The inspiration behind Burning Futures emerged from witnessing news coverage of devastating wildfires around the world. These images struck me deeply, especially seeing forests, which symbolize life and renewal, reduced to ashes in mere hours. I grew up appreciating nature and spending time outdoors, which made seeing these scenes of environmental destruction particularly painful for me. It felt personal because each fire not only destroyed natural landscapes but also erased countless memories and possibilities for future generations. As I worked on this project, I used AI to transform scenes of wildfire destruction into art, capturing both the tragic loss and the urgent call for change. By artistically portraying these harsh realities, I wanted to move people beyond mere headlines, allowing them to feel the emotional weight of what we stand to lose if we fail to act decisively against climate change. Through Burning Futures, I aim to remind viewers that protecting our environment isn’t just about preserving nature, it’s also about safeguarding our shared future.', 'Burning Futures is an AI-generated art project highlighting the devastating impact of wildfires intensified by climate change. Using artificial intelligence to artistically transform scenes of environmental destruction, the project conveys both loss and urgency, reminding us of the critical need to protect our planet before it’s too late.')">
+              <img src="images/Burning Futures.png" alt="Burning Futures">
+              <div class="image-title">Burning Futures</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Drowned London', 'The inspiration for Drowned London came from my growing awareness of rising sea levels and climate-driven flooding, issues becoming increasingly tangible as I began living in London. Walking through this historic city, I found myself reflecting on how easily familiar landmarks could be submerged if current trends continued unchecked. The idea that future generations might know iconic places like Big Ben or Tower Bridge only through images or memories deeply unsettled me. I created Drowned London to visualize this stark possibility, using AI to generate imagery of the city inundated by floods. The striking scene of politicians desperately climbing Big Ben represents the urgent need for decisive action from those in power. With this piece, my aim was to evoke a visceral reaction, prompting viewers to recognize the immediacy of the climate crisis and the importance of collective responsibility to prevent such futures from becoming reality.', 'Drowned London is an AI-generated visual artwork depicting the iconic city submerged beneath rising sea levels, with politicians climbing Big Ben to escape the floods. This provocative piece serves as a stark reminder of climate change consequences and underscores the urgent need for immediate action by political leaders and society alike.')">
+              <img src="images/Drowned London.png" alt="Drowned London">
+              <div class="image-title">Drowned London</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Drowned Paris', 'The inspiration for Drowned Paris was born from imagining how even the world’s most cherished and iconic cities are not immune to the impacts of climate change. Paris has always symbolized beauty, culture, and history to me, but I wanted to challenge that romantic image by confronting the fragility hidden beneath its landmarks. I envisioned a future where rising sea levels transform familiar streets into waterways, forcing us to rethink what we take for granted. Through this project, I used AI to depict Paris under water, with leaders scrambling for safety atop the Eiffel Tower. This imagery is both surreal and unsettling, meant to provoke reflection on the inaction of those in power and the urgency of addressing the climate crisis before such visions become irreversible realities.', 'Drowned Paris is an AI-generated artwork portraying the city submerged by rising sea levels, with politicians climbing the Eiffel Tower to escape the floods. This powerful piece challenges the romanticized view of Paris, highlighting the vulnerability of even the world’s most iconic cities in the face of climate change.')">
+              <img src="images/Drowned Paris.png" alt="Drowned Paris">
+              <div class="image-title">Drowned Paris</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Melting Icons', 'The inspiration for Melting Icons grew from my desire to represent the fragility of Earth’s glaciers in a way that felt both emotional and symbolic. Rather than depicting glaciers as distant, static landscapes, I wanted to transform them into icons of vulnerability, melting before our eyes. The idea came from reflecting on how climate change is erasing these natural wonders at an alarming rate, yet many of us remain detached from the urgency. By choosing a caricature-style digital sculpture, I aimed to balance seriousness with accessibility, using exaggerated, surreal forms to emphasize both the beauty and tragedy of this loss. The addition of a contemplative human figure gazing at the melting glacier was inspired by my own feeling of helplessness when faced with overwhelming environmental challenges. Through this piece, I wanted to ask a critical question: how do we preserve something that is vanishing in front of us? This project became a way for me to channel both frustration and hope, creating a visual metaphor that invites viewers to grapple with the emotional and ethical stakes of the climate crisis.', 'Melting Icons is an AI-generated digital sculpture in caricature style, depicting a melting glacier as a vulnerable, distorted symbol of climate change. Accompanied by a contemplative human figure and the message HOW DO YOU PRESERVE SOMETHING DISAPPEARING BEFORE OUR EYES?, the piece invites viewers to reflect on the urgency and emotional weight of environmental loss.')">
+              <img src="images/Melting Icons.png" alt="Melting Icons">
+              <div class="image-title">Melting Icons</div>
+            </div>
+        </div>
+
+        <!-- Modal container -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="closeit" onclick="closeModal()">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <p><strong>Inspiration:</strong> <span id="modalInspiration"></span></p>
+                <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+            </div>
+        </div>
+
+        <!--Adding an animated side bar to access any page-->
+        <input type="checkbox" id="chk" name="chkNavigation">
+        <label for="chk">
+            <div id="open"><i class="material-icons" >menu</i> Image Gallery</div>
+            <i class="material-icons" id="close">close</i>
+        </label>
+        
+        <nav>
+            <header>Image Gallery</header>
+            <ul>
+                <li>
+                    <a href="index.html">Home page</a> 
+                    <p>Return to the home page</p>
+                </li>
+                <li>
+                    <a href="BackStory.html">About</a> 
+                    <p>Learn more about the artist behind the AI-powered climate Artivism series and the mission driving the work.</p>
+                </li>
+                <li><a href="PersonalLife.html">Shop</a>
+                    <p>Get powerful AI-generated Artivism on posters, t-shirts, and more to support the message.</p>
+                </li>
+                <li><a href="Videos.html">Artivism in Action </a>
+                    <p>Watch a powerful visual journey through AI-generated artworks tackling climate change.</p>
+                </li>
+                <li><a href="partB.html">Quiz</a>
+                    <p>How well do you know the art and stories behind my climate projects? Take the quiz and find out!</p>
+                </li>
+                <li><a href="https://www.instagram.com/artivism_ai?igsh=eGFmMHlxYThwYXk1&utm_source=qr">Instagram</a>
+                    <p>Follow me on Instagram for new projects, and more climate AI Artivism.</p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
