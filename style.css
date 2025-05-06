@@ -320,7 +320,7 @@ div.Creator{
     right: 0;
     bottom: 0;
 }
-/*styling the body of the early stages page, the career page, the personal life page and the video page respectively*/
+/*styling the body of the early stages page, the Image_Gallery page, the personal life page and the video page respectively*/
 body.Past{
     background-image: url("images/City.jpg");  
     background-color: #cccccc;
@@ -330,7 +330,7 @@ body.Past{
     background-size: cover;
     font-family: 'Play', sans-serif;
 }
-body.Career{
+body.Image_Gallery{
     background-image: url("images/SPACE.jpg");
     background-color: #cccccc;
     color: aliceblue;
@@ -579,17 +579,17 @@ div.happy {
 div.happy:hover {
     opacity: 1;
 }
-.Career img { 
+.Image_Gallery img { 
     height:170px;
     margin-left:15px;
     margin-right: 15px;
     float: right;
 }
-.Career span.tmblr{
+.Image_Gallery span.tmblr{
     float: left;
 }
-/*styling div in the Career page*/
-.Career p {
+/*styling div in the Image_Gallery page*/
+.Image_Gallery p {
     text-indent: 50px;
     margin-bottom: 10px;
 }
